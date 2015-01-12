@@ -3,7 +3,7 @@ class Child {
 	public Child(int num) {
 		bizNum=num;
 	}
-public void ShowResult(Child player, int n) {
+	public void ShowResult(Child player, int n) {
 	System.out.println("플레이어 "+n);
 	System.out.println("구슬 개수: "+player.bizNum);
 	}
